@@ -1,0 +1,50 @@
+@import '../../styles/variables.scss';
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: rgba($color: $black, $alpha: 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+
+  &.wrapper_close {
+    display: none;
+  }
+}
+
+
+.modal {
+  position: relative;
+  width: 70%;
+  padding: 10px 30px;
+  margin-top: 200px;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.close_container {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  padding: 15px 10px;
+  z-index: 10;
+
+}
+
+.close {
+  position: absolute;
+  color: $black;
+  font-size: 30px;
+  top: -5px;
+  right: 5px;
+  cursor: pointer;
+}
+

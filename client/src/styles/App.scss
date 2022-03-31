@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+.app {
+    min-height: 100vh;
+    width: 100%;
+    background-color: $black;
+    color: $white;
+
+    h1,h2,h3 {
+        margin: 0;
+        padding: 0;
+    }
+}

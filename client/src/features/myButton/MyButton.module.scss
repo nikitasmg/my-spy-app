@@ -1,0 +1,33 @@
+@import "../../styles/variables.scss";
+
+.button {
+  background-color: $brown;
+  outline: none;
+  border: 1px solid $brown;
+  border-radius: 5px;
+  color: $white;
+  cursor: pointer;
+  transition: background-color linear .1s;
+  font-size: 20px;
+
+  &:hover {
+    background-color: transparent;
+    color: $brown;
+    transition: background-color linear .1s;
+  }
+
+  &.big {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  &.medium {
+    width: 50%;
+    padding: 10px;
+  }
+
+  &.small {
+    width: 35%;
+    padding: 5px 10px;
+  }
+}

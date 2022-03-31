@@ -1,0 +1,23 @@
+@import "../../styles/variables.scss";
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: $brown-minus;
+    border-radius: 5px;
+    border: 2px solid $brown-minus;
+    color: $black;
+    cursor: pointer;
+    transition: all linear .2s;
+
+    &:hover {
+        background-color: transparent;
+        color: $white;
+        transition: all linear .2s;
+    }
+
+
+}
